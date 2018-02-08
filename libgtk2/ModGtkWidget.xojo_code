@@ -1,5 +1,5 @@
 #tag Module
-Protected Module GtkWidgetMod
+Protected Module ModGtkWidget
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Function gtk_requisition_copy Lib Gtk2Lib (requisition as Ptr) As Ptr
 	#tag EndExternalMethod
@@ -647,6 +647,7 @@ Protected Module GtkWidgetMod
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Sub gtk_widget_unrealize Lib Gtk2Lib (widget as Ptr)
 	#tag EndExternalMethod
+
 
 	#tag Constant, Name = Gtk2Lib, Type = String, Dynamic = False, Default = \"libgtk-x11", Scope = Private
 	#tag EndConstant

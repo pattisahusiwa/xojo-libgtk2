@@ -1,5 +1,5 @@
 #tag Module
-Protected Module GtkWindowMod
+Protected Module ModGtkWindow
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Function gtk_window_activate_default Lib Gtk2Lib (window as Ptr) As Boolean
 	#tag EndExternalMethod

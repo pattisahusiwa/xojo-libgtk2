@@ -1,5 +1,5 @@
 #tag Module
-Protected Module GObjectMod
+Protected Module ModGObject
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Sub g_error_free Lib GObjectLib (error as Ptr)
 	#tag EndExternalMethod

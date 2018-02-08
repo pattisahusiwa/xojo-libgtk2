@@ -1,5 +1,5 @@
 #tag Module
-Protected Module Gdk2Mod
+Protected Module ModGdk2
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Function gdk_pixbuf_new_from_file Lib GdkPixbufLib (filename as CString, error as Ptr) As Ptr
 	#tag EndExternalMethod

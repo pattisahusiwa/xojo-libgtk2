@@ -1,5 +1,5 @@
 #tag Module
-Protected Module Gtk2Mod
+Protected Module ModGtk2
 	#tag ExternalMethod, Flags = &h0
 		Soft Declare Sub gtk_init Lib Gtk2Lib (ByRef argc as Integer, ByRef argv as CString)
 	#tag EndExternalMethod
