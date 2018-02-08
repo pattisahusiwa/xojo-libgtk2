@@ -10,6 +10,7 @@ Module=ModGObject;libgtk2/ModGObject.xojo_code;&h1DD0DFFF;&h7E3E9FFF;false
 Module=ModGtkWidget;libgtk2/ModGtkWidget.xojo_code;&h37B14FFF;&h7E3E9FFF;false
 Module=ModGtkWindow;libgtk2/ModGtkWindow.xojo_code;&h67397FF;&h7E3E9FFF;false
 Module=ModGtkAllignment;libgtk2/ModGtkAllignment.xojo_code;&h665B3FFF;&h7E3E9FFF;false
+Module=ModGtkButton;libgtk2/ModGtkButton.xojo_code;&h20611FFF;&h7E3E9FFF;false
 MajorVersion=0
 MinorVersion=1
 SubVersion=0
