@@ -72,6 +72,10 @@ Protected Module ModGtkMenuItem
 		Soft Declare Sub gtk_menu_item_toggle_size_request Lib Gtk2Lib (menu_item as Ptr, ByRef requisition as Integer)
 	#tag EndExternalMethod
 
+	#tag ExternalMethod, Flags = &h0
+		Soft Declare Function gtk_separator_menu_item_new Lib Gtk2Lib () As Ptr
+	#tag EndExternalMethod
+
 
 	#tag Constant, Name = Gtk2Lib, Type = String, Dynamic = False, Default = \"libgtk-x11", Scope = Private
 	#tag EndConstant
