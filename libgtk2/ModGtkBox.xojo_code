@@ -36,6 +36,14 @@ Protected Module ModGtkBox
 		Soft Declare Sub gtk_box_set_spacing Lib Gtk2Lib (box as Ptr, spacing as Integer)
 	#tag EndExternalMethod
 
+	#tag ExternalMethod, Flags = &h0
+		Soft Declare Function gtk_hbox_new Lib Gtk2Lib (homogeneous as boolean, spacing as Integer) As Ptr
+	#tag EndExternalMethod
+
+	#tag ExternalMethod, Flags = &h0
+		Soft Declare Function gtk_vbox_new Lib Gtk2Lib (homogeneous as boolean, spacing as Integer) As Ptr
+	#tag EndExternalMethod
+
 
 	#tag Constant, Name = Gtk2Lib, Type = String, Dynamic = False, Default = \"libgtk-x11", Scope = Private
 	#tag EndConstant
