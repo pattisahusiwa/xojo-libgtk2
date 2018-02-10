@@ -22,6 +22,7 @@ Module=ModGtkImageMenuItem;libgtk2/ModGtkImageMenuItem.xojo_code;&h614E5FFF;&h7E
 Module=ModGtkCheckMenuItem;libgtk2/ModGtkCheckMenuItem.xojo_code;&h663EFFFF;&h7E3E9FFF;false
 Module=ModGtkStatusbar;libgtk2/ModGtkStatusbar.xojo_code;&h7B035FFF;&h7E3E9FFF;false
 Module=ModGtkEventBox;libgtk2/ModGtkEventBox.xojo_code;&h7814FFFF;&h7E3E9FFF;false
+Module=ModGtkToolbar;libgtk2/ModGtkToolbar.xojo_code;&h7CB27FF;&h7E3E9FFF;false
 MajorVersion=0
 MinorVersion=1
 SubVersion=0
