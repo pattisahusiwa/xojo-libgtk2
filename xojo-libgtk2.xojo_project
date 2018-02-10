@@ -13,6 +13,7 @@ Module=ModGtkAllignment;libgtk2/ModGtkAllignment.xojo_code;&h665B3FFF;&h7E3E9FFF
 Module=ModGtkButton;libgtk2/ModGtkButton.xojo_code;&h20611FFF;&h7E3E9FFF;false
 Module=ModGtkContainer;libgtk2/ModGtkContainer.xojo_code;&h5A58D7FF;&h7E3E9FFF;false
 Module=ModGtkBox;libgtk2/ModGtkBox.xojo_code;&h658887FF;&h7E3E9FFF;false
+Module=ModGtkMenuBar;libgtk2/ModGtkMenuBar.xojo_code;&h5ADCDFFF;&h7E3E9FFF;false
 MajorVersion=0
 MinorVersion=1
 SubVersion=0
