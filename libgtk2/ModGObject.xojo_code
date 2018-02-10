@@ -34,8 +34,20 @@ Protected Module ModGObject
 		Private Soft Declare Function g_signal_connect_data Lib GObjectLib (instance as Ptr, detailed_signal as CString, c_handler as Ptr, data as Ptr, destroy_data as Ptr, connect_flags as Integer) As Integer
 	#tag EndExternalMethod
 
+	#tag Method, Flags = &h0
+		Sub g_signal_connect_swapped(instance as Ptr, detailed_signal as String, c_handler as Ptr, data as Ptr)
+		  Call g_signal_connect_data(instance, detailed_signal, c_handler, data, Nil, G_CONNECT_SWAPPED)
+		End Sub
+	#tag EndMethod
 
-	#tag Constant, Name = GObjectLib, Type = String, Dynamic = False, Default = \"libgobject", Scope = Private, Attributes = \""
+
+	#tag Constant, Name = GObjectLib, Type = String, Dynamic = False, Default = \"libgobject", Scope = Private
+	#tag EndConstant
+
+	#tag Constant, Name = G_CONNECT_AFTER, Type = Double, Dynamic = False, Default = \"1", Scope = Public
+	#tag EndConstant
+
+	#tag Constant, Name = G_CONNECT_SWAPPED, Type = Double, Dynamic = False, Default = \"2", Scope = Public
 	#tag EndConstant
 
 
