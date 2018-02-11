@@ -25,6 +25,7 @@ Module=ModGtkEventBox;libgtk2/ModGtkEventBox.xojo_code;&h7814FFFF;&h7E3E9FFF;fal
 Module=ModGtkToolbar;libgtk2/ModGtkToolbar.xojo_code;&h7CB27FF;&h7E3E9FFF;false
 Module=ModGtkToolButton;libgtk2/ModGtkToolButton.xojo_code;&h7796D7FF;&h7E3E9FFF;false
 Module=ModGtkSeparatorToolItem;libgtk2/ModGtkSeparatorToolItem.xojo_code;&h24778FFF;&h7E3E9FFF;false
+Module=ModGtkStockItem;libgtk2/ModGtkStockItem.xojo_code;&h717B87FF;&h7E3E9FFF;false
 MajorVersion=0
 MinorVersion=1
 SubVersion=0

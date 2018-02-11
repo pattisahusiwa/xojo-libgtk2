@@ -652,67 +652,67 @@ Protected Module ModGtkWidget
 	#tag Constant, Name = Gtk2Lib, Type = String, Dynamic = False, Default = \"libgtk-x11", Scope = Private
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_DOWN, Type = String, Dynamic = False, Default = \"3", Scope = Private
+	#tag Constant, Name = GTK_DIR_DOWN, Type = String, Dynamic = False, Default = \"3", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_LEFT, Type = String, Dynamic = False, Default = \"4", Scope = Private
+	#tag Constant, Name = GTK_DIR_LEFT, Type = String, Dynamic = False, Default = \"4", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_RIGHT, Type = String, Dynamic = False, Default = \"5", Scope = Private
+	#tag Constant, Name = GTK_DIR_RIGHT, Type = String, Dynamic = False, Default = \"5", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_TAB_BACKWARD, Type = String, Dynamic = False, Default = \"1", Scope = Private
+	#tag Constant, Name = GTK_DIR_TAB_BACKWARD, Type = String, Dynamic = False, Default = \"1", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_TAB_FORWARD, Type = String, Dynamic = False, Default = \"0", Scope = Private
+	#tag Constant, Name = GTK_DIR_TAB_FORWARD, Type = String, Dynamic = False, Default = \"0", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_DIR_UP, Type = String, Dynamic = False, Default = \"2", Scope = Private
+	#tag Constant, Name = GTK_DIR_UP, Type = String, Dynamic = False, Default = \"2", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_BUTTON, Type = Double, Dynamic = False, Default = \"4", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_BUTTON, Type = Double, Dynamic = False, Default = \"4", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_DIALOG, Type = Double, Dynamic = False, Default = \"6", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_DIALOG, Type = Double, Dynamic = False, Default = \"6", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_DND, Type = Double, Dynamic = False, Default = \"5", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_DND, Type = Double, Dynamic = False, Default = \"5", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_INVALID, Type = Double, Dynamic = False, Default = \"0", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_INVALID, Type = Double, Dynamic = False, Default = \"0", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_LARGE_TOOLBAR, Type = Double, Dynamic = False, Default = \"3", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_LARGE_TOOLBAR, Type = Double, Dynamic = False, Default = \"3", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_MENU, Type = Double, Dynamic = False, Default = \"1", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_MENU, Type = Double, Dynamic = False, Default = \"1", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_ICON_SIZE_SMALL_TOOLBAR, Type = Double, Dynamic = False, Default = \"2", Scope = Private
+	#tag Constant, Name = GTK_ICON_SIZE_SMALL_TOOLBAR, Type = Double, Dynamic = False, Default = \"2", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_STATE_ACTIVE, Type = Double, Dynamic = False, Default = \"1", Scope = Private
+	#tag Constant, Name = GTK_STATE_ACTIVE, Type = Double, Dynamic = False, Default = \"1", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_STATE_INSENSITIVE, Type = Double, Dynamic = False, Default = \"4", Scope = Private
+	#tag Constant, Name = GTK_STATE_INSENSITIVE, Type = Double, Dynamic = False, Default = \"4", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_STATE_NORMAL, Type = Double, Dynamic = False, Default = \"0", Scope = Private
+	#tag Constant, Name = GTK_STATE_NORMAL, Type = Double, Dynamic = False, Default = \"0", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_STATE_PRELIGHT, Type = Double, Dynamic = False, Default = \"2", Scope = Private
+	#tag Constant, Name = GTK_STATE_PRELIGHT, Type = Double, Dynamic = False, Default = \"2", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_STATE_SELECTED, Type = Double, Dynamic = False, Default = \"3", Scope = Private
+	#tag Constant, Name = GTK_STATE_SELECTED, Type = Double, Dynamic = False, Default = \"3", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_TEXT_DIR_LTR, Type = Double, Dynamic = False, Default = \"1", Scope = Private
+	#tag Constant, Name = GTK_TEXT_DIR_LTR, Type = Double, Dynamic = False, Default = \"1", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_TEXT_DIR_NONE, Type = Double, Dynamic = False, Default = \"0", Scope = Private
+	#tag Constant, Name = GTK_TEXT_DIR_NONE, Type = Double, Dynamic = False, Default = \"0", Scope = Public
 	#tag EndConstant
 
-	#tag Constant, Name = GTK_TEXT_DIR_RTL, Type = Double, Dynamic = False, Default = \"2", Scope = Private
+	#tag Constant, Name = GTK_TEXT_DIR_RTL, Type = Double, Dynamic = False, Default = \"2", Scope = Public
 	#tag EndConstant
 
 
